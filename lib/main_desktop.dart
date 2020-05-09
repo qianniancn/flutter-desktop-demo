@@ -4,16 +4,17 @@ import 'app.dart';
 
 // 文件结构
 
-// assets/images 资源目录
+// assets/images 图片资源
+// assets/font 字体资源
+
 // lib/pages/ 页面
-// lib/plugins 插件
-// lib/conf 配置
-// lib/model
-// lib/services
-// style
-// utils
+// lib/pages/welcome 欢迎页面
+// lib/common/plugins 插件
+// lib/common/conf 配置
+
 // loading.dart 加载
 void main(){
-  debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
+  // 选择平台
+  debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
   runApp(MyApp());
 }

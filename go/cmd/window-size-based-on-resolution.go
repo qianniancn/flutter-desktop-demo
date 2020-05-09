@@ -45,7 +45,7 @@ func init() {
 	) */
 
 	// 获取窗口尺寸
-	glfw.GetCurrentContext().GetSize()
+	// glfw.GetCurrentContext().GetSize()
 	/* 	//windowW, windowH :=
 	   	fmt.Printf("windowW:%d,windowH:%d\n", windowW, windowH)
 

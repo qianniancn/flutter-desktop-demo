@@ -16,6 +16,7 @@ import (
 var vmArguments string
 
 func main() {
+	// DO NOT EDIT, add options in options.go
 	mainOptions := []flutter.Option{
 		flutter.OptionVMArguments(strings.Split(vmArguments, ";")),
 		flutter.WindowIcon(iconProvider),
